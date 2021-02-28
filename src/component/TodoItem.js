@@ -39,6 +39,8 @@ export default class TodosItem extends Component {
 
 TodosItem.propTypes = {
   propsTodosItem: PropTypes.object.isRequired,
+  propsMarkCompleteTodos: PropTypes.func.isRequired,
+  propsDelTodosJs: PropTypes.func.isRequired,
 };
 
 // variabel
